@@ -1,0 +1,310 @@
+[Root]
+Most Recent Package=Fax Manager (Alpha)
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Temp\package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+e:\my documents\kc marketing beta db 1-7-00.mdb=
+E:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=
+
+[Package|Standard Setup Package 1|Files Removed]
+e:\my documents\kc marketing beta db 1-7-00.mdb=
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\My Documents\KC Marketing BETA DB 1-7-00.mdb=No
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\WINNT\system32\MSRDO20.DLL=Yes
+C:\WINNT\system32\RDOCURS.DLL=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+E:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\My Documents\KC Marketing BETA DB 1-7-00.mdb=$(AppPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=No
+E:\My Documents\KC Marketing BETA DB 1-7-00.mdb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Fax Manager v3.0 (ALPHA)
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\Temp\package
+ProjectFolder=E:\My Documents\AMPM\Fax Server\VB Project
+ServerSideCab=
+File1=c:\Temp\package\setup.exe
+File2=c:\Temp\package\Setup.Lst
+File3=c:\Temp\package\Fax Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Fax Manager v3.0
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Fax Manager v3.0]
+Icon1="Fax Manager.EXE"
+Title1=Fax Manager v3.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Fax Manager (Alpha)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Temp\Fax Manager
+
+[Package|Fax Manager (Alpha)|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Fax Manager (Alpha)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Fax Manager (Alpha)|Files Found]
+Fax Manager.mdb=C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.mdb
+Instructions.rtf=C:\My Documents\AMPM\Fax Server\VB Project\Instructions.rtf
+WhatsNew.rtf=C:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf
+
+[Package|Fax Manager (Alpha)|Files Released]
+kc marketing beta db 1-7-00.mdb=
+winfax export.mdb=
+
+[Package|Fax Manager (Alpha)|Missing Dependency Information]
+
+[Package|Fax Manager (Alpha)|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomctl.ocx=
+
+[Package|Fax Manager (Alpha)|Files Added]
+c:\my documents\ampm\fax server\vb project\whatsnew.rtf=
+c:\my documents\ampm\fax server\vb project\instructions.rtf=
+c:\my documents\ampm\fax server\vb project\fax manager.mdb=
+c:\my documents\ampm\fax server\vb project\zetafax.mdb=
+
+[Package|Fax Manager (Alpha)|Files Removed]
+e:\my documents\kc marketing beta db 1-7-00.mdb=
+
+[Package|Fax Manager (Alpha)|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\WINNT\system32\MSRDO20.DLL=Yes
+C:\WINNT\system32\RDOCURS.DLL=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=Yes
+C:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=Yes
+C:\My Documents\AMPM\Fax Server\VB Project\Instructions.rtf=Yes
+C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.mdb=Yes
+C:\My Documents\AMPM\Fax Server\VB Project\ZetaFax.mdb=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+
+[Package|Fax Manager (Alpha)|Configure Registry Files]
+Applicable=No
+
+[Package|Fax Manager (Alpha)|Configure Remote Servers]
+Applicable=No
+
+[Package|Fax Manager (Alpha)|Install Locations]
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\My Documents\KC Marketing BETA DB 1-7-00.mdb=$(AppPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=$(AppPath)
+E:\My Documents\AMPM\Fax Server\VB Project\Instructions.rtf=$(AppPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.mdb=$(AppPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+E:\My Documents\AMPM\Fax Server\VB Project\WinFax Export.mdb=$(AppPath)
+C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=$(AppPath)
+C:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=$(AppPath)
+C:\My Documents\AMPM\Fax Server\VB Project\Instructions.rtf=$(AppPath)
+C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.mdb=$(AppPath)
+C:\My Documents\AMPM\Fax Server\VB Project\WinFax Export.mdb=$(AppPath)
+C:\My Documents\AMPM\Fax Server\VB Project\ZetaFax.mdb=$(AppPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+
+[Package|Fax Manager (Alpha)|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=No
+E:\My Documents\KC Marketing BETA DB 1-7-00.mdb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=No
+E:\My Documents\AMPM\Fax Server\VB Project\Instructions.rtf=No
+E:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.mdb=No
+E:\My Documents\AMPM\Fax Server\VB Project\WinFax Export.mdb=No
+C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.exe=No
+C:\My Documents\AMPM\Fax Server\VB Project\WhatsNew.rtf=No
+C:\My Documents\AMPM\Fax Server\VB Project\Instructions.rtf=No
+C:\My Documents\AMPM\Fax Server\VB Project\Fax Manager.mdb=No
+C:\My Documents\AMPM\Fax Server\VB Project\WinFax Export.mdb=No
+C:\My Documents\AMPM\Fax Server\VB Project\ZetaFax.mdb=No
+
+[Package|Fax Manager (Alpha)|Distribution]
+Type=single
+Size=
+Title=Fax Manager v3.01 (ALPHA)
+
+[Package|Fax Manager (Alpha)|Package]
+PackageFolder=c:\Temp\Fax Manager
+ProjectFolder=C:\My Documents\AMPM\Fax Server\VB Project
+ServerSideCab=
+File1=c:\Temp\Fax Manager\setup.exe
+File2=c:\Temp\Fax Manager\Setup.Lst
+File3=c:\Temp\Fax Manager\Fax Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Fax Manager (Alpha)|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=-1
+Parent0=
+
+[Package|Fax Manager (Alpha)|$(Programs)]
+Icon1="Fax Manager.exe"
+Title1=Fax Manager (Alpha)
+StartIn1=$(AppPath)
+Key1=Icon2
